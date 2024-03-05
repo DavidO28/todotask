@@ -1,0 +1,8 @@
+@import "../../styles/Mixins.scss";
+
+.add-todo-field{
+    @include flex-row;
+    @include border-radius;
+    @include padding;
+    width: 400px;
+}

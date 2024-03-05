@@ -1,0 +1,21 @@
+@import "../../styles//Mixins.scss";
+
+header {
+  @include padding;
+  @include border-radius;
+  width: 400px;
+  nav {
+    ul {
+      @include flex-row;
+      list-style-type: none;
+      li {
+        a {
+          text-decoration: none;
+          &.active {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}
